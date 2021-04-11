@@ -61,9 +61,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   input: {
+    marginRight: 20,
     padding: 10,
     paddingLeft: 0,
-    width: '80%',
+    flex: 1,
     borderStyle: 'solid',
     borderBottomWidth: 2,
     borderBottomColor: COLORS.primarySemiDark,

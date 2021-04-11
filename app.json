@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-todo-app",
-    "slug": "rn-todo-app",
+    "name": "todo-app-react-native",
+    "slug": "todo-app-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
