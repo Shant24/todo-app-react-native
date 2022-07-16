@@ -4,13 +4,10 @@ import { StatusBar } from 'expo-status-bar';
 import uuid from 'react-native-uuid';
 
 import { COLORS } from './src/constants/style';
-import Navbar from './src/components/Navbar/index';
-import AddTodo from './src/components/AddTodo/index';
+import Navbar from './src/components/Navbar';
+import AddTodo from './src/components/AddTodo';
 import Todo from './src/components/Todo';
-import {
-  getStorageObjData,
-  setStorageObjData,
-} from './src/helpers/storageHelper';
+import { getStorageObjData, setStorageObjData } from './src/helpers/storageHelper';
 import { STORAGE } from './src/constants/storage';
 
 const App = () => {
